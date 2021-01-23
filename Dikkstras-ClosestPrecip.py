@@ -37,7 +37,7 @@ import copy
 
 #----------------
 # Note: Here I am creating artificial precip array (9x9).
-# You should write code to input the 2D precip array and modify so wet cells = 0 and dry cells = 1
+# You should write code to input your own 2D precip array and modify it so the wet cells = 0 and dry cells = 1
 
 # Initialize 2D array with 1's (without Precip)
 Precip = np.zeros((9,9)) + 1
@@ -127,34 +127,3 @@ print Precip
 
 print '---Distance'
 print Distance
-
-quit()
-
-
-
-
-
-
-quit()
-TargetIndex = np.where(Target == 1)
-print Target
-
-
-
-#for jdx in range(len(TargetIndex[0])):
-    
-quit()
-
-
-
-# If yes, assign these a 1 in precip and target array
-# If no, assign these a 2 in precip array
-
-
-
-
-# Obtain index of each point Loop through and determine if any gridcell 2 places away has a 1
-#
-# Increment the numbers with each pass so you know that the number 
-# As the numbers start to go down then you know that you are this many gridcells from a cell with 
-# precip
