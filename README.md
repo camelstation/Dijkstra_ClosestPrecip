@@ -2,8 +2,8 @@
 
 A fast routine to return a 2D array of distance to closest precipitating grid cell.
 
-* Input: a 2D array 
-* Output: a 2D array
+* Input: a 2D array of precip
+* Output: a 2D array of distance to closest precipitating grid cell (measured by number of grid cells)
 
 I have used it for super-resolution exercises (e.g., see https://arxiv.org/abs/2012.01233) but it could be used for many applications.
 
