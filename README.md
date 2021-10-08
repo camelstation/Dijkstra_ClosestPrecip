@@ -7,6 +7,8 @@ A fast routine to return a 2D array of distance to closest precipitating grid ce
 
 I have used it for super-resolution exercises (e.g., see https://arxiv.org/abs/2012.01233) but it could be used for many applications.
 
+If you have ideas of how to make it faster, I'd love to hear from you!
+
 ## How to use
 
 Read in a 2D precipitation array and modify it such that: 
